@@ -16,18 +16,18 @@ var obstacle1IMG, obstacle2IMG, blastIMG;
 //Create Media library and load to use it during the course of the software
 //executed only once at the start of the program
 function preload() {
-  trackIMG = loadImage("../assets/track.jpg");
-  car1IMG = loadImage("../assets/car1.png");
-  car2IMG = loadImage("../assets/car2.png");
-  backgroundIMG = loadImage("../assets/background.png");
+  trackIMG = loadImage("./assets/track.jpg");
+  car1IMG = loadImage("./assets/car1.png");
+  car2IMG = loadImage("./assets/car2.png");
+  backgroundIMG = loadImage("./assets/background.png");
 
-  fuelIMG = loadImage("../assets/fuel.png");
-  powerCoinIMG = loadImage("../assets/goldCoin.png");
-  lifeIMG = loadImage("../assets/life.png");
+  fuelIMG = loadImage("./assets/fuel.png");
+  powerCoinIMG = loadImage("./assets/goldCoin.png");
+  lifeIMG = loadImage("./assets/life.png");
 
-  obstacle1IMG = loadImage("../assets/obstacle1.png");
-  obstacle2IMG = loadImage("../assets/obstacle2.png");
-  blastIMG = loadImage("../assets/blast.png");
+  obstacle1IMG = loadImage("./assets/obstacle1.png");
+  obstacle2IMG = loadImage("./assets/obstacle2.png");
+  blastIMG = loadImage("./assets/blast.png");
 }
 
 //define the initial environment of the software(before it is used)
